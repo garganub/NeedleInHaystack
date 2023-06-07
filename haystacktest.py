@@ -11,6 +11,7 @@ def main ():
     tests.append(("Mississippi", "issip", "results should be 4"))
     tests.append(("Mississippi", "sip", "results should be 6"))
     tests.append(("Mississippi", "ippi", "results should be 7"))
+    tests.append(("Mississippisecond", "ippi", "results should be 7"))
     for test in tests: 
         print (str(hs.findNeedle(test[0], test[1])) + test[2])
     # print (hs.findNeedle())
